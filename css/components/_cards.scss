@@ -1,0 +1,28 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+
+    .card-main {
+        max-width: 400px;
+        min-height: 240px;
+        display: flex;
+        flex-direction: column;
+        background-color: #1E201D;
+        padding: 20px;
+        text-align: left;
+        border-radius: $brdr-rad;
+
+         i {
+            color: $primaryBG;
+            font-size: 40px;
+        }
+        .card-main-text {
+            color: $secondaryClr;
+            font-size: 20px;
+        }
+    }
+    
+
+}
+

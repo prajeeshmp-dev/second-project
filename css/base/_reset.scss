@@ -1,0 +1,76 @@
+
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+/* Margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* List styling */
+ol, ul {
+    list-style: none;
+}
+
+/* Typography */
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+/* Forms */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Remove button default styles */
+button {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  /* Remove input default styles */
+  input {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: inherit;
+    font-family: inherit;
+    background-color: transparent;
+    border-radius: initial;
+    outline: initial;
+    box-shadow: initial;
+  }

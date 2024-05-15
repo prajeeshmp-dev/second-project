@@ -1,0 +1,31 @@
+$primaryBtn:(
+color:$secondaryClr,
+border: $brdr,
+border-radius: $brdr-rad,
+padding: $brdr-pad,
+);
+
+$secondaryBtn:(
+background-color:$primaryBG,
+color:$primaryClr,
+border: $brdr,
+border-radius: $brdr-rad,
+padding: $brdr-pad,
+);
+
+
+.btn-1{
+    color: map-get($primaryBtn, color);
+    border: map-get($primaryBtn, border);
+    border-radius: map-get($primaryBtn, border-radius);
+    padding: map-get($primaryBtn, padding);
+}
+
+.btn-2{
+    color: map-get($secondaryBtn, color);
+    border: map-get($secondaryBtn, border);
+    border-radius: map-get($secondaryBtn, border-radius);
+    padding: map-get($secondaryBtn, padding);
+    background-color:  map-get($secondaryBtn, background-color);
+}
+

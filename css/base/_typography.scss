@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'SFProTextRegular';
+    src: url('../../fonts/SFProTextRegular.eot');
+    src: url('../../fonts/SFProTextRegular.eot') format('embedded-opentype'),
+         url('../../fonts/SFProTextRegular.woff2') format('woff2'),
+         url('../../fonts/SFProTextRegular.woff') format('woff'),
+         url('../../fonts/SFProTextRegular.ttf') format('truetype'),
+         url('../../fonts/SFProTextRegular.svg#SFProTextRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'SFProTextSemibold';
+    src: url('../../fonts/SFProTextSemibold.eot');
+    src: url('../../fonts/SFProTextSemibold.eot') format('embedded-opentype'),
+         url('../../fonts/SFProTextSemibold.woff2') format('woff2'),
+         url('../../fonts/SFProTextSemibold.woff') format('woff'),
+         url('../../fonts/SFProTextSemibold.ttf') format('truetype'),
+         url('../../fonts/SFProTextSemibold.svg#SFProTextSemibold') format('svg');
+}
+
+body{
+    font-size: 16px;
+    font-family: 'SFProTextSemibold'; 
+    color: $projectText; 
+}
+
+p{
+    font-family: 'SFProTextRegular';
+}
+
+
+h2{
+    font-size: 48px;
+}
+
